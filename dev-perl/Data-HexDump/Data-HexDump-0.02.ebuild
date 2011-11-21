@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Data::HexDump - A Simple Hexadecial Dumper"
 
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~hppa ~sparc ~x86"
 IUSE=""
 
 RDEPEND="dev-lang/perl"

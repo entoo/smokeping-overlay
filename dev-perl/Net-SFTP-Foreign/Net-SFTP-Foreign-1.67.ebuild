@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Net::SFTP::Foreign, Secure File Transfer Protocol client"
 
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~hppa ~sparc ~x86"
 IUSE=""
 
 RDEPEND="perl-core/ExtUtils-MakeMaker

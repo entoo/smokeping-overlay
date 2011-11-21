@@ -12,7 +12,9 @@ SRC_URI="http://oss.oetiker.ch/smokeping/pub/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+# dropping hppa and sparc because of way too may dependencies not having
+# keywords in those architectures.
+KEYWORDS="~amd64 ~x86"
 IUSE="apache2 curl dig echoping fcgi ipv6 ldap radius ssh telnet"
 
 DEPEND="!apache2? ( virtual/httpd-cgi )
